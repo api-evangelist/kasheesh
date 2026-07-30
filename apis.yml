@@ -1,7 +1,28 @@
 aid: kasheesh
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kasheesh.png
 name: Kasheesh
-description: Kasheesh is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kasheesh is a consumer fintech platform that lets people split a single
+  purchase across up to five credit and debit cards in one transaction. Instead
+  of a traditional buy-now-pay-later loan, Kasheesh combines the funds and credit
+  a customer already holds into a single digital Kasheesh Card that works at any
+  Mastercard-accepting merchant online or in-store via tap-to-pay. The service
+  charges a flat service fee, returns card rewards on spend, and requires no
+  sign-up fee or credit check. Kasheesh is offered through iOS and Android apps
+  and a web app, targeting everyday shopping, bill payment, and rent. It was added
+  to the API Evangelist network as a portfolio company of Anthemis; it does not
+  currently publish a public developer program, API documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/kasheesh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Payments
+- Consumer Finance
+- Credit Cards
+- Card Splitting
+- Mastercard
+- Rewards
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kasheesh-domain-security.yml
+- type: Website
+  url: https://www.kasheesh.co
+- type: Support
+  url: https://kasheesh.frontkb.com/en
+- type: SignUp
+  url: https://app.kasheesh.co/auth/
+- type: Login
+  url: https://app.kasheesh.co/auth/
+- type: TermsOfService
+  url: https://www.kasheesh.co/legal-documents/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.kasheesh.co/legal-documents/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
