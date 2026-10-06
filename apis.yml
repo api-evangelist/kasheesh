@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -55,6 +55,8 @@ tags:
 - Rewards
 apis: []
 common:
+- url: https://www.kasheesh.co/press/
+  type: Blog
 - type: DomainSecurity
   url: security/kasheesh-domain-security.yml
 - type: Website
